@@ -1,10 +1,10 @@
 using System;
 
-// 2019-11-21 15:00:56.203305900 UTC
+// 2019-11-21 17:20:11.823993900 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1574348456;
+    public const Int32 timestamp = 1574356811;
     public static class netvars
     {
         public const Int32 m_MoveType = 0x25C;
@@ -30,9 +30,9 @@ namespace hazedumper
     public static class signatures
     {
         public const Int32 dwClientState = 0x588DC4;
-        public const Int32 dwClientState_GetLocalPlayer = 0x180;
         public const Int32 dwClientState_IsHLTV = 0x4D40;
         public const Int32 dwClientState_Map = 0x28C;
+        public const Int32 dwClientState_MapDirectory = 0x188;
         public const Int32 dwClientState_MaxPlayer = 0x388;
         public const Int32 dwClientState_PlayerInfo = 0x52B8;
         public const Int32 dwClientState_State = 0x108;
@@ -42,6 +42,7 @@ namespace hazedumper
         public const Int32 dwGetAllClasses = 0xD4AC44;
         public const Int32 dwGlobalVars = 0x588AC8;
         public const Int32 dwLocalPlayer = 0xD24AAC;
+        public const Int32 dwRadarBase = 0x516D30C;
         public const Int32 dwViewMatrix = 0x4D29FC4;
         public const Int32 m_bDormant = 0xED;
     }
