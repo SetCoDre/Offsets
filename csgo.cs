@@ -1,10 +1,10 @@
 using System;
 
-// 2019-11-24 17:32:57.239134600 UTC
+// 2019-11-25 15:32:07.626042600 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1574616777;
+    public const Int32 timestamp = 1574695927;
     public static class netvars
     {
         public const Int32 m_MoveType = 0x25C;
