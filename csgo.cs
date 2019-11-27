@@ -1,10 +1,10 @@
 using System;
 
-// 2019-11-25 15:32:07.626042600 UTC
+// 2019-11-27 12:31:46.210581200 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1574695927;
+    public const Int32 timestamp = 1574857906;
     public static class netvars
     {
         public const Int32 m_MoveType = 0x25C;
@@ -32,18 +32,17 @@ namespace hazedumper
         public const Int32 dwClientState = 0x588DC4;
         public const Int32 dwClientState_IsHLTV = 0x4D40;
         public const Int32 dwClientState_Map = 0x28C;
-        public const Int32 dwClientState_MapDirectory = 0x188;
         public const Int32 dwClientState_MaxPlayer = 0x388;
         public const Int32 dwClientState_PlayerInfo = 0x52B8;
         public const Int32 dwClientState_State = 0x108;
         public const Int32 dwClientState_ViewAngles = 0x4D88;
-        public const Int32 dwEntityList = 0x4D3B6AC;
-        public const Int32 dwForceAttack = 0x316CD54;
+        public const Int32 dwEntityList = 0x4D3B69C;
+        public const Int32 dwForceAttack = 0x316CD44;
         public const Int32 dwGetAllClasses = 0xD4DC9C;
         public const Int32 dwGlobalVars = 0x588AC8;
         public const Int32 dwLocalPlayer = 0xD27AAC;
-        public const Int32 dwRadarBase = 0x517040C;
-        public const Int32 dwViewMatrix = 0x4D2D0C4;
+        public const Int32 dwRadarBase = 0x51703FC;
+        public const Int32 dwViewMatrix = 0x4D2D0B4;
         public const Int32 m_bDormant = 0xED;
     }
 } // namespace hazedumper
