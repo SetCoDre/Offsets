@@ -1,25 +1,21 @@
 using System;
 
-// 2019-11-27 12:41:53.772366500 UTC
+// 2019-11-28 13:05:17.600461300 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1574858513;
+    public const Int32 timestamp = 1574946317;
     public static class netvars
     {
-        public const Int32 m_MoveType = 0x25C;
         public const Int32 m_aimPunchAngle = 0x302C;
-        public const Int32 m_bIsScoped = 0x3914;
         public const Int32 m_bSpotted = 0x93D;
         public const Int32 m_bSpottedByMask = 0x980;
         public const Int32 m_dwBoneMatrix = 0x26A8;
-        public const Int32 m_fFlags = 0x104;
         public const Int32 m_hActiveWeapon = 0x2EF8;
         public const Int32 m_iCrosshairId = 0xB3D4;
         public const Int32 m_iFOV = 0x31E4;
         public const Int32 m_iHealth = 0x100;
         public const Int32 m_iItemDefinitionIndex = 0x2FAA;
-        public const Int32 m_iObserverMode = 0x3374;
         public const Int32 m_iShotsFired = 0xA380;
         public const Int32 m_iTeamNum = 0xF4;
         public const Int32 m_lifeState = 0x25F;
@@ -29,18 +25,14 @@ namespace hazedumper
     }
     public static class signatures
     {
-        public const Int32 dwClientState = 0x588DC4;
-        public const Int32 dwClientState_IsHLTV = 0x4D40;
-        public const Int32 dwClientState_Map = 0x28C;
-        public const Int32 dwClientState_MapDirectory = 0x188;
+        public const Int32 dwClientState = 0x587DC4;
         public const Int32 dwClientState_MaxPlayer = 0x388;
-        public const Int32 dwClientState_PlayerInfo = 0x52B8;
         public const Int32 dwClientState_State = 0x108;
         public const Int32 dwClientState_ViewAngles = 0x4D88;
         public const Int32 dwEntityList = 0x4D3B69C;
         public const Int32 dwForceAttack = 0x316CD44;
         public const Int32 dwGetAllClasses = 0xD4DC9C;
-        public const Int32 dwGlobalVars = 0x588AC8;
+        public const Int32 dwGlobalVars = 0x587AC8;
         public const Int32 dwLocalPlayer = 0xD27AAC;
         public const Int32 dwRadarBase = 0x51703FC;
         public const Int32 dwViewMatrix = 0x4D2D0B4;
