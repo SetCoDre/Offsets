@@ -1,10 +1,10 @@
 using System;
 
-// 2019-11-29 12:47:12.662754800 UTC
+// 2019-11-29 14:02:16.119973400 UTC
 
 namespace hazedumper
 {
-    public const Int32 timestamp = 1575031632;
+    public const Int32 timestamp = 1575036136;
     public static class netvars
     {
         public const Int32 m_aimPunchAngle = 0x302C;
